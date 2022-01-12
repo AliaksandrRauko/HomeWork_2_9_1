@@ -24,6 +24,7 @@ class SpringAnimationViewController: UIViewController {
     @IBOutlet weak var delayLabel: UILabel!
     
     @IBOutlet weak var springAnimationView: SpringView!
+    
     private var animation: Animation!
 
     
@@ -48,6 +49,7 @@ class SpringAnimationViewController: UIViewController {
 
 extension SpringAnimationViewController {
     
+    //Евгения, в своей моделе Animation, где эта структура и функция была - обратитсья к ней не смог, поэтому пометил сюда, что не так сделал??
     private func getAnimation() -> Animation {
 
         Animation(
