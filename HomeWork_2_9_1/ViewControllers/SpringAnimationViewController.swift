@@ -7,7 +7,6 @@
 
 import Spring
 
-
 struct Animation {
     let animation: String
     let curve: String
@@ -26,6 +25,7 @@ class SpringAnimationViewController: UIViewController {
     
     @IBOutlet weak var springAnimationView: SpringView!
     private var animation: Animation!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +41,7 @@ class SpringAnimationViewController: UIViewController {
         
         springAnimationView.animate()
         animation = getAnimation()
-        sender.setTitle("RUN \(animation.animation)", for: .normal)
+        sender.setTitle("Run \(animation.animation)", for: .normal)
     }
     
 }
@@ -49,7 +49,7 @@ class SpringAnimationViewController: UIViewController {
 extension SpringAnimationViewController {
     
     private func getAnimation() -> Animation {
-        
+
         Animation(
             animation:Spring.AnimationPreset.allCases.randomElement()?.rawValue ?? "",
             curve: Spring.AnimationCurve.allCases.randomElement()?.rawValue ?? "",

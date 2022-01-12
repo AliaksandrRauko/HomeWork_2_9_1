@@ -51,6 +51,41 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		1EC65F1A278ED1ED00C8ED1D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EDFB854278DB3B7002C2360 /* SpringAnimationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1EC65F1B278ED20500C8ED1D /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				1EDFB856278DB3B7002C2360 /* Main.storyboard */,
+				1EDFB85B278DB3B7002C2360 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		1EC65F1C278ED22000C8ED1D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1EDFB850278DB3B7002C2360 /* AppDelegate.swift */,
+				1EDFB85E278DB3B7002C2360 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1EC65F1D278ED24A00C8ED1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1EDFB859278DB3B7002C2360 /* Assets.xcassets */,
+				1EDFB852278DB3B7002C2360 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		1EDFB844278DB3B7002C2360 = {
 			isa = PBXGroup;
 			children = (
@@ -72,13 +107,10 @@
 		1EDFB84F278DB3B7002C2360 /* HomeWork_2_9_1 */ = {
 			isa = PBXGroup;
 			children = (
-				1EDFB850278DB3B7002C2360 /* AppDelegate.swift */,
-				1EDFB852278DB3B7002C2360 /* SceneDelegate.swift */,
-				1EDFB854278DB3B7002C2360 /* SpringAnimationViewController.swift */,
-				1EDFB856278DB3B7002C2360 /* Main.storyboard */,
-				1EDFB859278DB3B7002C2360 /* Assets.xcassets */,
-				1EDFB85B278DB3B7002C2360 /* LaunchScreen.storyboard */,
-				1EDFB85E278DB3B7002C2360 /* Info.plist */,
+				1EC65F1B278ED20500C8ED1D /* StoryBoards */,
+				1EC65F1A278ED1ED00C8ED1D /* ViewControllers */,
+				1EC65F1D278ED24A00C8ED1D /* Resources */,
+				1EC65F1C278ED22000C8ED1D /* App */,
 				1EC65F18278EAF3700C8ED1D /* Models */,
 			);
 			path = HomeWork_2_9_1;
@@ -370,7 +402,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7HT3STQ75T;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork_2_9_1/Info.plist;
+				INFOPLIST_FILE = HomeWork_2_9_1/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -399,7 +431,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7HT3STQ75T;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork_2_9_1/Info.plist;
+				INFOPLIST_FILE = HomeWork_2_9_1/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
